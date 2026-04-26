@@ -112,6 +112,13 @@ echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | node dist/index.js
 - 📜 OpenAPI spec: [tryclipwise.com/openapi.yaml](https://tryclipwise.com/openapi.yaml)
 - 📫 Email: olx2go@gmail.com
 
+## Author
+
+Created by **Oleksandr Petrov** (Олександр Петров) — indie maker and TikTok creator from Vinnytsia, Ukraine.
+
+- 🎬 TikTok: [@Lusuy_sharit](https://www.tiktok.com/@Lusuy_sharit)
+- 📸 Instagram: [@Lusuy_sharit](https://www.instagram.com/Lusuy_sharit)
+
 ## Contributing
 
 Issues and PRs welcome. This is a thin wrapper around the public Clipwise API — please report bugs at [github.com/mobileshop9991-star/clipwise-mcp/issues](https://github.com/mobileshop9991-star/clipwise-mcp/issues).

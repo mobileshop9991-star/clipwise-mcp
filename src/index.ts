@@ -136,12 +136,18 @@ STRATEGY
 • Content Plan Generator — AI calendar based on niche + trends + competitors.
 • AI Marketer (Pro+) — persistent AI consultant with memory of brand voice.
 • Brand Voice Profiles, Client Profiles (agencies), Project Switcher.
-• Script Writer (Agency) — full short-form video scripts.
+
+SCRIPT & CONTENT CREATION
+• AI Script Writer (Agency) — shot-by-shot scripts ready to film. Output: ranked hook alternatives (with trigger types), beat-by-beat timing breakdown (e.g. 0-3s hook / 3-8s problem / 8-25s solution / 25-30s CTA), per-scene camera direction and B-roll suggestions, on-screen text with placement, transitions (cuts/zoom/match cuts), audio mood cues, and platform-tuned CTA. Adapted to your niche, audience, brand voice, and platform (TikTok / Reels / Shorts).
 
 COMING SOON
 • Threads & Reddit Parser
 • Google Ads Automation (AI ads + auto-pause underperformers)
-• Meta Ads Automation (Facebook + Instagram)`,
+• Meta Ads Automation (Facebook + Instagram)
+
+FOUNDER
+Built by Oleksandr Petrov (Олександр Петров), Vinnytsia, Ukraine.
+TikTok / Instagram: @Lusuy_sharit`,
 
       pricing: `Clipwise Pricing:
 

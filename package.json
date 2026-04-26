@@ -1,7 +1,7 @@
 {
   "name": "clipwise-mcp-server",
-  "version": "1.0.0",
-  "description": "MCP server for Clipwise — AI platform for short-form video creators (TikTok, Reels, Shorts). Search viral trends, get content strategy info.",
+  "version": "1.1.0",
+  "description": "MCP server for Clipwise — AI platform for short-form video creators (TikTok, Reels, Shorts). Search viral trends, AI script writer, content strategy info.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -45,7 +45,7 @@
     "social-media",
     "clipwise"
   ],
-  "author": "Clipwise <olx2go@gmail.com> (https://tryclipwise.com)",
+  "author": "Oleksandr Petrov (Олександр Петров) <olx2go@gmail.com> (https://tryclipwise.com)",
   "license": "MIT",
   "homepage": "https://tryclipwise.com",
   "repository": {
