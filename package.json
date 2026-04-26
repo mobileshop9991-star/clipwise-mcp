@@ -1,0 +1,58 @@
+{
+  "name": "clipwise-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Clipwise — AI platform for short-form video creators (TikTok, Reels, Shorts). Search viral trends, get content strategy info.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "clipwise-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('dist/index.js', '755')\"",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "claude-desktop",
+    "tiktok",
+    "instagram-reels",
+    "youtube-shorts",
+    "short-form-video",
+    "ai",
+    "content-creator",
+    "viral",
+    "trends",
+    "social-media",
+    "clipwise"
+  ],
+  "author": "Clipwise <olx2go@gmail.com> (https://tryclipwise.com)",
+  "license": "MIT",
+  "homepage": "https://tryclipwise.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobileshop9991-star/clipwise-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mobileshop9991-star/clipwise-mcp/issues",
+    "email": "olx2go@gmail.com"
+  }
+}
