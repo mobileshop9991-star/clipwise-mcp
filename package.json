@@ -13,9 +13,10 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsc && node -e \"require('fs').chmodSync('dist/index.js', '755')\"",
+    "build": "tsc",
     "start": "node dist/index.js",
     "dev": "tsc --watch",
+    "test": "echo '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\"}' | node dist/index.js | head -1",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
