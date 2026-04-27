@@ -1,0 +1,21 @@
+# Smithery configuration for clipwise-mcp-server
+# Docs: https://smithery.ai/docs/config
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      clipwiseApiKey:
+        type: string
+        title: Clipwise API Key
+        description: >-
+          Required only for clipwise_search_trends. Get a free key at
+          https://tryclipwise.com/en/dashboard/account
+    additionalProperties: false
+  commandFunction: |-
+    (config) => ({
+      command: 'node',
+      args: ['dist/index.js'],
+      env: config.clipwiseApiKey ? { CLIPWISE_API_KEY: config.clipwiseApiKey } : {}
+    })
