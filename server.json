@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.mobileshop9991-star/clipwise-mcp",
   "title": "Clipwise",
-  "description": "AI tools for short-form video creators (TikTok, Instagram Reels, YouTube Shorts, Facebook Reels). Three tools: service info, use-case scenarios for creators and agencies, and viral TikTok trend search across 20+ countries.",
+  "description": "MCP server for Clipwise - AI tools for TikTok, Reels, and Shorts video creators.",
   "websiteUrl": "https://tryclipwise.com",
   "repository": {
     "url": "https://github.com/mobileshop9991-star/clipwise-mcp",
