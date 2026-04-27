@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mobileshop9991-star/clipwise-mcp",
+  "title": "Clipwise",
+  "description": "AI tools for short-form video creators (TikTok, Instagram Reels, YouTube Shorts, Facebook Reels). Three tools: service info, use-case scenarios for creators and agencies, and viral TikTok trend search across 20+ countries.",
+  "websiteUrl": "https://tryclipwise.com",
+  "repository": {
+    "url": "https://github.com/mobileshop9991-star/clipwise-mcp",
+    "source": "github"
+  },
+  "version": "1.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "clipwise-mcp-server",
+      "version": "1.1.1",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "CLIPWISE_API_KEY",
+          "description": "Required only for clipwise_search_trends. Get a free key at https://tryclipwise.com/en/dashboard/account",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
