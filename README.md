@@ -79,6 +79,8 @@ Clipwise is an AI platform for content creators, social media marketers, and age
 
 **Coming soon:** Threads/Reddit parser, Google Ads automation, Meta Ads automation.
 
+Unlike basic AI wrappers, Clipwise uses a **knowledge-base architecture** — 35+ curated playbooks (hook psychology, script structures, platform benchmarks, copywriting formulas, humanizer rules) are injected into every AI call. Scripts pass through an AI-writing detection layer so output sounds human, not like ChatGPT.
+
 **Pricing:** Free (200 tokens/mo) · Pro $24/mo · Agency $73/mo
 
 ## Environment Variables
